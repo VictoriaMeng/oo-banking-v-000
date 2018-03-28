@@ -1,4 +1,4 @@
-require relative "bank_account.rb"
+require_relative "bank_account.rb"
 
 class Transfer
   attr_accessor :sender, :receiver, :status, :amount
