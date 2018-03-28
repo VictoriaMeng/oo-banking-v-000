@@ -1,4 +1,5 @@
 require_relative "bank_account.rb"
+require 'pry'
 
 class Transfer
   attr_accessor :sender, :receiver, :status, :amount
